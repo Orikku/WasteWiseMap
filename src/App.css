@@ -30,3 +30,39 @@ nav ul li a {
   text-decoration: none;
   color: #333;
 }
+
+.contacto-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  margin-top: 50px;
+}
+
+.contacto-info,
+.contacto-formulario {
+  margin-bottom: 20px;
+}
+
+.contacto-info p {
+  margin: 0;
+}
+
+.campo {
+  margin-bottom: 10px;
+}
+
+.campo label {
+  margin-bottom: 2px;
+}
+
+.campo input[type="text"],
+.campo input[type="email"],
+.campo textarea {
+  margin-top: 2px;
+  width: calc(100% - 10px);
+}
+
+.campo textarea {
+  height: 100px;
+}
