@@ -15,7 +15,7 @@ function App() {
           <p>Nuestra página web está diseñada para ayudar a las personas a localizar puntos cercanos donde puedan llevar tanto materiales de reciclaje como residuos electrónicos, con el propósito de dirigirlos hacia organizaciones que se encarguen de su adecuado procesamiento y reciclaje</p>
         </div>
         <div className="right">
-          <h3>¿Qué se puede reciclar?</h3>
+          <h3 className="right-title">¿Qué se puede reciclar?</h3>
           <ul>
             <li>Plásticos</li>
             <li>Vidrio</li>
@@ -37,6 +37,14 @@ function App() {
           allowFullScreen=""
           loading="lazy"
         ></iframe>
+      </div>
+      <div className="button-container">
+        <button>Acerca de</button>
+        <button>Contacto</button>
+        <button>Suscribirse</button>
+      </div>
+      <div className="footer">
+        <p>Copyright © 2024. All Rights Reserved</p>
       </div>
     </div>
   );
