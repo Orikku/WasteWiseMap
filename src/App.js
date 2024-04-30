@@ -38,6 +38,20 @@ function App() {
           loading="lazy"
         ></iframe>
       </div>
+      <div className="contact-form">
+        <h2>Contacto de Cliente</h2>
+        <form>
+          <div className="form-group">
+            <input type="text" id="name" name="name" placeholder="Nombre" />
+            <input type="email" id="email" name="email" placeholder="Email" />
+          </div>
+          <div className="form-group">
+            <label htmlFor="comment">Comentario:</label>
+            <textarea id="comment" name="comment" maxLength={1000} placeholder="Escribe tu comentario aquí..."></textarea>
+          </div>
+          <button type="submit">Enviar mensaje</button>
+        </form>
+      </div>
       <div className="footer">
         <p>Copyright © 2024. All Rights Reserved</p>
       </div>
