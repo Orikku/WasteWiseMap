@@ -99,6 +99,8 @@
 .map-container iframe {
   margin: 0 auto;
   display: block;
+  width: 95%;
+  height: 720px;
 }
 
 .map-buttons {
