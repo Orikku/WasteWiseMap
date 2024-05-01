@@ -46,8 +46,8 @@ function App() {
             <input type="email" id="email" name="email" placeholder="Email" />
           </div>
           <div className="form-group">
-            <label htmlFor="comment">Comentario:</label>
-            <textarea id="comment" name="comment" maxLength={1000} placeholder="Escribe tu comentario aquí..."></textarea>
+            <label htmlFor="comment"></label>
+            <textarea id="comment" name="comment" maxLength={500} placeholder="Escribe tu comentario aquí..."></textarea>
           </div>
           <button type="submit">Enviar mensaje</button>
         </form>

@@ -119,28 +119,30 @@
 
 input[type="text"],
 input[type="email"] {
-  width: calc(50% - 5px); /* 50% del ancho - 5px de espacio entre ellos */
+  width: calc(50% - 5px);
   padding: 10px;
   border-radius: 5px;
   border: 1px solid #ccc;
   box-sizing: border-box;
   font-size: 1.4em;
-  margin-right: 5px; /* Espacio entre los campos de nombre y email */
+  margin-right: 5px;
 }
 
 textarea {
-  width: calc(100% - 5px); /* 100% del ancho - 5px de espacio */
+  width: calc(100% - 5px);
   padding: 10px;
   border-radius: 5px;
   border: 1px solid #ccc;
   box-sizing: border-box;
   font-size: 1.4em;
-  resize: none; /* Deshabilitar la redimension del cuadro de texto */
-  height: 100px; /* Altura fija del cuadro de texto */
+  font-family: 'Arial', sans-serif;
+  resize: none;
+  height: 100px;
 }
 
+
 button[type="submit"] {
-  margin-top: 10px; /* Espacio entre el campo de comentario y el botón */
+  margin-top: 10px;
   padding: 10px 20px;
   background-color: #2970DB;
   color: white;
