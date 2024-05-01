@@ -1,0 +1,16 @@
+{
+  "files": {
+    "main.css": "/WasteWiseMap/static/css/main.ca5dc162.css",
+    "main.js": "/WasteWiseMap/static/js/main.9b2b1d8d.js",
+    "static/js/453.96548d3f.chunk.js": "/WasteWiseMap/static/js/453.96548d3f.chunk.js",
+    "static/media/fondo1.jpg": "/WasteWiseMap/static/media/fondo1.d566c3fbc4f5889ff62c.jpg",
+    "index.html": "/WasteWiseMap/index.html",
+    "main.ca5dc162.css.map": "/WasteWiseMap/static/css/main.ca5dc162.css.map",
+    "main.9b2b1d8d.js.map": "/WasteWiseMap/static/js/main.9b2b1d8d.js.map",
+    "453.96548d3f.chunk.js.map": "/WasteWiseMap/static/js/453.96548d3f.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.ca5dc162.css",
+    "static/js/main.9b2b1d8d.js"
+  ]
+}
