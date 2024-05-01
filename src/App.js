@@ -1,7 +1,25 @@
-import React from 'react';
+import React, { useState } from 'react';
 import './App.css';
 
 function App() {
+  const [mapType, setMapType] = useState('paper'); 
+
+  const changeToPaperMap = () => {
+    setMapType('paper');
+  };
+
+  const changeToPlasticMap = () => {
+    setMapType('plastic');
+  };
+
+  const changeToGlassMap = () => {
+    setMapType('glass');
+  };
+
+  const changeToElectronicMap = () => {
+    setMapType('electronic');
+  };
+
   return (
     <div className="App">
       <h1 className="title">WasteWiseMap</h1>
@@ -26,15 +44,57 @@ function App() {
       </div>
       <div className="map-container">
         <h2>Puntos de recolección</h2>
-        <iframe 
-          title="Mapa de Bogotá"
-          src="https://www.google.com/maps/d/u/0/embed?mid=1ART3MGKWFMeGnhfCwMymm_tKoBIA0BE&ehbc=2E312F&noprof=1"
-          width="100%"
-          height="600"
-          style={{ border: 0, marginTop: "25px" }}
-          allowFullScreen=""
-          loading="lazy"
-        ></iframe>
+        {mapType === 'paper' && (
+          <iframe 
+            title="Mapa de reciclaje de papel"
+            src="https://www.google.com/maps/d/u/0/embed?mid=1bj00Aa7xW6qXitPj8SFcYnGTIM2hkcc&ehbc=2E312F&noprof=1"
+            width="100%"
+            height="600"
+            style={{ border: 0, marginTop: "25px" }}
+            allowFullScreen=""
+            loading="lazy"
+          ></iframe>
+        )}
+        {mapType === 'plastic' && (
+          <iframe 
+            title="Mapa de reciclaje de plástico"
+            src="https://www.google.com/maps/d/u/0/embed?mid=1rtUGGB9MJNFbMfbmrXEPZ_uibgtuSP4&ehbc=2E312F&noprof=1"
+            width="100%"
+            height="600"
+            style={{ border: 0, marginTop: "25px" }}
+            allowFullScreen=""
+            loading="lazy"
+          ></iframe>
+        )}
+        {mapType === 'glass' && (
+          <iframe 
+            title="Mapa de reciclaje de vidrio"
+            src="https://www.google.com/maps/d/u/0/embed?mid=16vHtavctHK5pGtRDX1vSwvn-t_fumOc&ehbc=2E312F&noprof=1"
+            width="100%"
+            height="600"
+            style={{ border: 0, marginTop: "25px" }}
+            allowFullScreen=""
+            loading="lazy"
+          ></iframe>
+        )}
+        {mapType === 'electronic' && (
+          <iframe 
+            title="Mapa de reciclaje de aparatos electrónicos"
+            src="https://www.google.com/maps/d/u/0/embed?mid=1ART3MGKWFMeGnhfCwMymm_tKoBIA0BE&ehbc=2E312F&noprof=1"
+            width="100%"
+            height="600"
+            style={{ border: 0, marginTop: "25px" }}
+            allowFullScreen=""
+            loading="lazy"
+          ></iframe>
+        )}
+      </div>
+      {/* Botones para cambiar entre tipos de mapas */}
+      <div className="map-buttons">
+        <button onClick={changeToPaperMap}>Papel</button>
+        <button onClick={changeToPlasticMap}>Plástico</button>
+        <button onClick={changeToGlassMap}>Vidrio</button>
+        <button onClick={changeToElectronicMap}>Electrónicos</button>
       </div>
       <div className="contact-form">
         <h2>Contacto de Cliente</h2>
