@@ -88,13 +88,12 @@ function App() {
             loading="lazy"
           ></iframe>
         )}
-      </div>
-      {/* Botones para cambiar entre tipos de mapas */}
-      <div className="map-buttons">
-        <button onClick={changeToPaperMap}>Papel</button>
-        <button onClick={changeToPlasticMap}>Plástico</button>
-        <button onClick={changeToGlassMap}>Vidrio</button>
-        <button onClick={changeToElectronicMap}>Electrónicos</button>
+        <div className="map-buttons">
+          <button onClick={changeToPaperMap}>Papel</button>
+          <button onClick={changeToPlasticMap}>Plástico</button>
+          <button onClick={changeToGlassMap}>Vidrio</button>
+          <button onClick={changeToElectronicMap}>Electrónicos</button>
+        </div>
       </div>
       <div className="contact-form">
         <h2>Contacto de Cliente</h2>
