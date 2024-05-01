@@ -17,11 +17,9 @@ function App() {
         <div className="right">
           <h3 className="right-title">¿Qué se puede reciclar?</h3>
           <ul>
+            <li>Papel</li>
             <li>Plásticos</li>
             <li>Vidrio</li>
-            <li>Cartones</li>
-            <li>Baterías</li>
-            <li>Cables</li>
             <li>Aparatos electrónicos</li>
           </ul>
         </div>
@@ -30,7 +28,7 @@ function App() {
         <h2>Puntos de recolección</h2>
         <iframe 
           title="Mapa de Bogotá"
-          src="https://www.google.com/maps/d/embed?mid=1rtUGGB9MJNFbMfbmrXEPZ_uibgtuSP4&ehbc=2E312F&noprof=1"
+          src="https://www.google.com/maps/d/u/0/embed?mid=1ART3MGKWFMeGnhfCwMymm_tKoBIA0BE&ehbc=2E312F&noprof=1"
           width="100%"
           height="600"
           style={{ border: 0, marginTop: "25px" }}
