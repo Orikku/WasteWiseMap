@@ -1,4 +1,5 @@
 import React, { useState } from 'react';
+import Carousel from './Carousel/Carousel';
 import './App.css';
 
 function App() {
@@ -108,6 +109,7 @@ function App() {
           </div>
           <button type="submit">Enviar mensaje</button>
         </form>
+        <Carousel/>
       </div>
       <div className="footer">
         <p>Copyright © 2024. All Rights Reserved</p>
