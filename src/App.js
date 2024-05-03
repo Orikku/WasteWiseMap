@@ -23,7 +23,7 @@ function App() {
 
   return (
     <div className="App">
-      <h1 className="title">WasteWiseMap</h1>
+      <h1 className="title">WASTEWISEMAP</h1>
       <div className="centered">
         <h2>AYÚDANOS A RECICLAR</h2>
         <p>“La basura de unos es el tesoro de otros”</p>
