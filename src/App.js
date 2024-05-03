@@ -1,10 +1,9 @@
 import React, { useState } from 'react';
 import './App.css';
 
-
-
 function App() {
   const [mapType, setMapType] = useState('paper'); 
+  const [alerta, setAlerta] = useState(false);
 
   const changeToPaperMap = () => {
     setMapType('paper');
@@ -20,6 +19,12 @@ function App() {
 
   const changeToElectronicMap = () => {
     setMapType('electronic');
+  };
+
+  const enviarMensaje = () => {
+    // Aquí iría el código para enviar el formulario
+    // Por simplicidad, vamos a simular que se envió correctamente
+    setAlerta(true);
   };
 
   return (
@@ -108,12 +113,19 @@ function App() {
             <label htmlFor="comment"></label>
             <textarea id="comment" name="comment" maxLength={500} placeholder="Escribe tu comentario aquí..."></textarea>
           </div>
-          <button type="submit">Enviar mensaje</button>
+          <button type="button" onClick={enviarMensaje} className="enviar-btn">Enviar mensaje</button>
+          {alerta && (
+            <div className="alerta">
+              <p>El formulario se envió correctamente.</p>
+            </div>
+          )}
         </form>
       </div>
       <div className="footer">
-       <p>Correo electrónico: Wastewisemap@gmail.com</p>
-       <p>Teléfono: 3215619032</p>
+        <h2>Contáctanos</h2>
+        <p>Av. 70 #53-40, Bogotá (Colombia)</p>
+        <p>Teléfono: +57 321 9215008</p>
+        <p>Correo electrónico: wastewisemap@gmail.com</p>
         <p>Copyright © 2024. All Rights Reserved</p>
       </div>
     </div>

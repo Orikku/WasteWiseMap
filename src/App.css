@@ -163,7 +163,7 @@ textarea {
   height: 100px;
 }
 
-button[type="submit"] {
+button.enviar-btn {
   margin-top: 10px;
   padding: 10px 20px;
   background-color: #2970DB;
@@ -175,7 +175,7 @@ button[type="submit"] {
   font-size: 1.4em;
 }
 
-button[type="submit"]:hover {
+button.enviar-btn:hover {
   background-color: #245dab;
 }
 
