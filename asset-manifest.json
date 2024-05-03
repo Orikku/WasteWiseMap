@@ -1,16 +1,16 @@
 {
   "files": {
-    "main.css": "/WasteWiseMap/static/css/main.f2d495e5.css",
-    "main.js": "/WasteWiseMap/static/js/main.0057b8e8.js",
+    "main.css": "/WasteWiseMap/static/css/main.5351478c.css",
+    "main.js": "/WasteWiseMap/static/js/main.4c6a39cf.js",
     "static/js/453.96548d3f.chunk.js": "/WasteWiseMap/static/js/453.96548d3f.chunk.js",
     "static/media/fondo1.jpg": "/WasteWiseMap/static/media/fondo1.d566c3fbc4f5889ff62c.jpg",
     "index.html": "/WasteWiseMap/index.html",
-    "main.f2d495e5.css.map": "/WasteWiseMap/static/css/main.f2d495e5.css.map",
-    "main.0057b8e8.js.map": "/WasteWiseMap/static/js/main.0057b8e8.js.map",
+    "main.5351478c.css.map": "/WasteWiseMap/static/css/main.5351478c.css.map",
+    "main.4c6a39cf.js.map": "/WasteWiseMap/static/js/main.4c6a39cf.js.map",
     "453.96548d3f.chunk.js.map": "/WasteWiseMap/static/js/453.96548d3f.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.f2d495e5.css",
-    "static/js/main.0057b8e8.js"
+    "static/css/main.5351478c.css",
+    "static/js/main.4c6a39cf.js"
   ]
 }
