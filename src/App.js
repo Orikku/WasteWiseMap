@@ -1,6 +1,8 @@
 import React, { useState } from 'react';
 import './App.css';
 
+
+
 function App() {
   const [mapType, setMapType] = useState('paper'); 
 
@@ -22,7 +24,7 @@ function App() {
 
   return (
     <div className="App">
-      <h1 className="title">WASTEWISEMAP</h1>
+      <h1 className="title">WasteWiseMap</h1>
       <div className="centered">
         <h2>AYÚDANOS A RECICLAR</h2>
         <p>“La basura de unos es el tesoro de otros”</p>
@@ -110,6 +112,8 @@ function App() {
         </form>
       </div>
       <div className="footer">
+       <p>Correo electrónico: Wastewisemap@gmail.com</p>
+       <p>Teléfono: 3215619032</p>
         <p>Copyright © 2024. All Rights Reserved</p>
       </div>
     </div>
